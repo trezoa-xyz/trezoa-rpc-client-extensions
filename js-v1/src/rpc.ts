@@ -1,4 +1,4 @@
-import { Connection, PublicKey } from '@solana/web3.js';
+import { Connection, PublicKey } from '@trezoa/web3.js';
 import { getStakeAccount, getStakeHistory } from './stake';
 import { getStakeActivatingAndDeactivating } from './delegation';
 

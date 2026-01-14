@@ -5,8 +5,8 @@ import {
   getStructCodec,
   getU32Codec,
   getU64Codec,
-} from '@solana/codecs';
-import type { ReadonlyUint8Array } from '@solana/codecs';
+} from '@trezoa/codecs';
+import type { ReadonlyUint8Array } from '@trezoa/codecs';
 
 const authorizedCodec = getStructCodec([
   ['staker', fixCodecSize(getBytesCodec(), 32)],

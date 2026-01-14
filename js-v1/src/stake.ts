@@ -2,7 +2,7 @@ import {
   AccountInfo,
   ParsedAccountData,
   RpcResponseAndContext,
-} from '@solana/web3.js';
+} from '@trezoa/web3.js';
 
 export type StakeHistoryEntry = {
   epoch: bigint;

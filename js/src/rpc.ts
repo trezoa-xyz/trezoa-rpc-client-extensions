@@ -2,10 +2,10 @@ import {
   assertAccountExists,
   decodeAccount,
   fetchEncodedAccount,
-} from '@solana/accounts';
-import { Address } from '@solana/addresses';
-import { Rpc, SolanaRpcApi } from '@solana/rpc';
-import { SYSVAR_STAKE_HISTORY_ADDRESS } from '@solana/sysvars';
+} from '@trezoa/accounts';
+import { Address } from '@trezoa/addresses';
+import { Rpc, TrezoaRpcApi } from '@trezoa/rpc';
+import { SYSVAR_STAKE_HISTORY_ADDRESS } from '@trezoa/sysvars';
 import { stakeAccountCodec, stakeHistoryCodec } from './stake';
 import { getStakeActivatingAndDeactivating } from './delegation';
 
@@ -16,7 +16,7 @@ export interface StakeActivation {
 }
 
 export async function getStakeActivation(
-  rpc: Rpc<SolanaRpcApi>,
+  rpc: Rpc<TrezoaRpcApi>,
   stakeAddress: Address
 ): Promise<StakeActivation> {
   const [epochInfo, stakeAccount, stakeHistory] = await Promise.all([

@@ -1,5 +1,5 @@
 {
-  "name": "@anza-xyz/solana-rpc-get-stake-activation-example",
+  "name": "@trezoa-xyz/trezoa-rpc-get-stake-activation-example",
   "version": "2.0.0",
   "description": "Example using getStakeActivation",
   "sideEffects": false,
@@ -9,19 +9,19 @@
   "type": "commonjs",
   "keywords": [
     "blockchain",
-    "solana",
+    "trezoa",
     "rpc",
     "web3"
   ],
-  "author": "Anza Maintainers <maintainers@anza.xyz>",
+  "author": "Trezoa-team Maintainers <maintainers@trezoa.xyz>",
   "license": "Apache-2.0",
   "packageManager": "pnpm@9.1.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/anza-xyz/solana-rpc-client-extensions"
+    "url": "https://github.com/trezoa-xyz/trezoa-rpc-client-extensions"
   },
   "bugs": {
-    "url": "https://github.com/anza-xyz/solana-rpc-client-extensions/issues"
+    "url": "https://github.com/trezoa-xyz/trezoa-rpc-client-extensions/issues"
   },
   "publishConfig": {
     "access": "private"
@@ -46,9 +46,9 @@
     "prepublishOnly": "pnpm build"
   },
   "dependencies": {
-    "@anza-xyz/solana-rpc-get-stake-activation": "2.0.0",
-    "@solana/addresses": "2.0.0-rc.0",
-    "@solana/rpc": "2.0.0-rc.0"
+    "@trezoa-xyz/trezoa-rpc-get-stake-activation": "2.0.0",
+    "@trezoa/addresses": "2.0.0-rc.0",
+    "@trezoa/rpc": "2.0.0-rc.0"
   },
   "devDependencies": {
     "rimraf": "^5.0.5",

@@ -1,7 +1,7 @@
 {
-  "name": "@anza-xyz/solana-rpc-get-stake-activation",
+  "name": "@trezoa-xyz/trezoa-rpc-get-stake-activation",
   "version": "2.0.0",
-  "description": "Client-side replica of Solana RPC's getStakeActivation",
+  "description": "Client-side replica of Trezoa RPC's getStakeActivation",
   "sideEffects": false,
   "module": "./dist/src/index.mjs",
   "main": "./dist/src/index.js",
@@ -9,19 +9,19 @@
   "type": "commonjs",
   "keywords": [
     "blockchain",
-    "solana",
+    "trezoa",
     "rpc",
     "web3"
   ],
-  "author": "Anza Maintainers <maintainers@anza.xyz>",
+  "author": "Trezoa-team Maintainers <maintainers@trezoa.xyz>",
   "license": "Apache-2.0",
   "packageManager": "pnpm@9.1.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/anza-xyz/solana-rpc-client-extensions"
+    "url": "https://github.com/trezoa-xyz/trezoa-rpc-client-extensions"
   },
   "bugs": {
-    "url": "https://github.com/anza-xyz/solana-rpc-client-extensions/issues"
+    "url": "https://github.com/trezoa-xyz/trezoa-rpc-client-extensions/issues"
   },
   "publishConfig": {
     "access": "public"
@@ -48,17 +48,17 @@
     "prepublishOnly": "pnpm build"
   },
   "dependencies": {
-    "@solana/accounts": "2.0.0-rc.0",
-    "@solana/addresses": "2.0.0-rc.0",
-    "@solana/codecs": "2.0.0-rc.0",
-    "@solana/rpc": "2.0.0-rc.0",
-    "@solana/sysvars": "2.0.0-rc.0"
+    "@trezoa/accounts": "2.0.0-rc.0",
+    "@trezoa/addresses": "2.0.0-rc.0",
+    "@trezoa/codecs": "2.0.0-rc.0",
+    "@trezoa/rpc": "2.0.0-rc.0",
+    "@trezoa/sysvars": "2.0.0-rc.0"
   },
   "devDependencies": {
     "@ava/typescript": "^4.1.0",
-    "@solana/eslint-config-solana": "^3.0.3",
-    "@solana/web3.js": "2.0.0-rc.0",
-    "@solana/webcrypto-ed25519-polyfill": "2.0.0-rc.0",
+    "@trezoa/eslint-config-trezoa": "^3.0.3",
+    "@trezoa/web3.js": "2.0.0-rc.0",
+    "@trezoa/webcrypto-ed25519-polyfill": "2.0.0-rc.0",
     "@types/node": "^20",
     "@typescript-eslint/eslint-plugin": "^7.16.1",
     "@typescript-eslint/parser": "^7.16.1",

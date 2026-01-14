@@ -1,5 +1,5 @@
 module.exports = {
-  extends: ['@solana/eslint-config-solana'],
+  extends: ['@trezoa/eslint-config-trezoa'],
   ignorePatterns: ['.eslintrc.cjs', 'tsup.config.ts', 'env-shim.ts'],
   parserOptions: {
     project: 'tsconfig.json',

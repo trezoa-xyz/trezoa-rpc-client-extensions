@@ -1,8 +1,8 @@
 use {
     serde::{Deserialize, Serialize},
-    solana_rpc_client::rpc_client::RpcClient,
-    solana_rpc_client_api::client_error::{Error, ErrorKind, Result as ClientResult},
-    solana_sdk::{
+    trezoa_rpc_client::rpc_client::RpcClient,
+    trezoa_rpc_client_api::client_error::{Error, ErrorKind, Result as ClientResult},
+    trezoa_sdk::{
         account::{from_account, ReadableAccount},
         pubkey::Pubkey,
         stake::state::{StakeActivationStatus, StakeStateV2},

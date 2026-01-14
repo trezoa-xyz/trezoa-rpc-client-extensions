@@ -1,27 +1,27 @@
-# solana-rpc-client-extensions
+# trezoa-rpc-client-extensions
 
-Rust and JS code to perform Solana RPC calls on the client-side. Currently
+Rust and JS code to perform Trezoa RPC calls on the client-side. Currently
 covers the following RPC calls and packages:
 
 | RPC Call | Rust Package | JS Package | JS v1 Package |
 | --- | --- | --- | --- |
-| `GetStakeActivation` | `solana-rpc-get-stake-activation` | `@anza-xyz/solana-rpc-get-stake-activation` | `@anza-xyz/solana-rpc-get-stake-activation-v1` |
+| `GetStakeActivation` | `trezoa-rpc-get-stake-activation` | `@trezoa-xyz/trezoa-rpc-get-stake-activation` | `@trezoa-xyz/trezoa-rpc-get-stake-activation-v1` |
 
 ## Other Languages
 
-Any language with libraries to interact with Solana RPC nodes also needs this
-additional client-side logic, but the Anza team only maintains Rust and JS
+Any language with libraries to interact with Trezoa RPC nodes also needs this
+additional client-side logic, but the Trezoa-team team only maintains Rust and JS
 packages.
 
 Here are other supported languages, and their associated repositories.
 
 | Language | Repository |
 | --- | --- |
-| Go | https://github.com/skport/solana-rpc-client-extensions-go |
+| Go | https://github.com/skport/trezoa-rpc-client-extensions-go |
 
 ## Motivation
 
-The `GetStakeActivation` RPC code is being removed in Agave 2.0, but users may
+The `GetStakeActivation` RPC code is being removed in Trezoa-team 2.0, but users may
 still need to get access to stake activation data.
 
 The RPC method was removed because it's possible to get calculate the status of
