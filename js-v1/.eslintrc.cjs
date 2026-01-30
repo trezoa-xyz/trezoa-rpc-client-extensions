@@ -2,7 +2,7 @@ module.exports = {
   extends: ['@trezoa/eslint-config-trezoa'],
   ignorePatterns: ['.eslintrc.cjs', 'tsup.config.ts', 'env-shim.ts'],
   parserOptions: {
-    project: 'tsconfig.json',
+    trezoa: 'tsconfig.json',
     tsconfigRootDir: __dirname,
     sourceType: 'module',
   },
